@@ -20,14 +20,12 @@
 
 # sudo bundle install
 # sudo bundle exec jekyll serve
-title: Shenyang Shi webpage
+title: Shenyang Shi
 email: shenyang.shih@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shenyangshi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: shenyangshi
-github_username:  shenyangshi
 
 # Build settings
 #theme: minima
@@ -35,8 +33,33 @@ remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
 markdown: kramdown
+
+
+author:
+  name: Shenyang Shi
+  bio: "PhD student in the Department of Physics at Columbia University"
+  home: "New York, NY"
+  email: "ss6109@columbia.edu"
+  social:
+    email: ss6109@columbia.edu
+    github:  shenyangshi
+    google: https://scholar.google.com/citations?user=NV8YSoYAAAAJ&hl=en
+
+# Design of the main page
+accent_image: /assets/img/main_page.jpeg
+menu:
+  - title: About
+    url:   /about/
+  - title: Blog
+    url:   /_posts/
+  - title: Research
+    url:   /_research/
+  - title: Pictures
+    url:   /_pictures/
+
+google_analytics: UA-XXXXXXXX-X
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

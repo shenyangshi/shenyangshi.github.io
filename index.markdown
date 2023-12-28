@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Shenyang Shi 石申阳
+title: About
+image: 
+  path: /assets/img/main_page.jpeg
+cover: true
 ---
-
-This is the home page.
