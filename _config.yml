@@ -44,7 +44,9 @@ author:
   social:
     email: ss6109@columbia.edu
     github:  shenyangshi
-    google: https://scholar.google.com/citations?user=NV8YSoYAAAAJ&hl=en
+    google-scholar: https://scholar.google.com/citations?user=NV8YSoYAAAAJ&hl=en
+
+
 
 # Design of the main page
 accent_image: /assets/img/main_page.jpeg
