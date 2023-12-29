@@ -45,6 +45,7 @@ author:
     github:  shenyangshi
     google-scholar: https://scholar.google.com/citations?user=NV8YSoYAAAAJ&hl=en
 
+
 # Design of the pages
 accent_image: /assets/img/main_page.jpeg
 menu:
@@ -56,7 +57,7 @@ menu:
     url:   /travel/
   - title: Photography
     url:   /photography/
-google_analytics: UA-XXXXXXXX-X
+google_analytics: G-D1LTJMVZK9
 collections:
   featured_categories:
     permalink:         /:name/
