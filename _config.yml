@@ -35,7 +35,6 @@ plugins:
   - jekyll-remote-theme
 markdown: kramdown
 
-
 author:
   name: Shenyang Shi
   bio: "PhD student in the Department of Physics at Columbia University"
@@ -46,22 +45,34 @@ author:
     github:  shenyangshi
     google-scholar: https://scholar.google.com/citations?user=NV8YSoYAAAAJ&hl=en
 
-
-
-# Design of the main page
+# Design of the pages
 accent_image: /assets/img/main_page.jpeg
 menu:
   - title: About
-    url:   /about/
+    url: /
   - title: Blog
-    url:   /_posts/
-  - title: Research
-    url:   /_research/
-  - title: Pictures
-    url:   /_pictures/
-
+    url:   /blog/
+  - title: Travel
+    url:   /travel/
+  - title: Photography
+    url:   /photography/
 google_analytics: UA-XXXXXXXX-X
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
 
+
+# Comment section
+#disqus: shenyangshi
+#defaults:
+#  - scope:
+#      type: blog, travel, photography
+#    values:
+#      comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
